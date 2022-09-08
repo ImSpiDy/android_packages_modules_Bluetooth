@@ -326,7 +326,7 @@ android_app {
         "bt_did.conf",
         "bt_stack.conf",
         "interop_database.conf",
-        "privapp_allowlist_com.android.bluetooth.services.xml",
+        "privapp_allowlist_com.android.bluetooth.xml",
     ],
     apex_available: [
         "com.android.btservices",
