@@ -1839,7 +1839,7 @@ static int create_cmdjob(char* cmd) {
  ** Load stack lib
  *******************************************************************************/
 #define BLUETOOTH_LIBRARY_NAME \
-  "/apex/com.android.btservices/lib64/libbluetooth_jni.so"
+  "/lib64/libbluetooth_jni.so"
 int load_bt_lib(const bt_interface_t** interface) {
   const char* sym = BLUETOOTH_INTERFACE_STRING;
   bt_interface_t* itf = nullptr;
